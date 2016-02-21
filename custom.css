@@ -3,7 +3,7 @@ body {
 }
 
 address.lead, p.hours {
-    line-height: 1.7;
+    line-height: 2;
 }
 
 iframe {
@@ -30,6 +30,10 @@ a:hover {
     text-decoration: none;
 }
 
+.marketing p.lead {
+    line-height: 1.8;
+}
+
 .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
@@ -40,12 +44,11 @@ a:hover {
 }
 
 .logo {
-    width: 400px;
+    max-height: 240px;
 }
 
 .round-icon-container {
-    text-align: center;
-    line-height: 200px;
+    line-height: 240px;
 }
 
 .round-icon-container a {
@@ -57,9 +60,8 @@ a:hover {
 }
 
 .round-icon {
-    width: 90px;
-    height: 90px;
-    margin: 0 25px;
+    width: 100px;
+    height: 100px;
 }
 
 .bar-container {
