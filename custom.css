@@ -10,11 +10,18 @@ iframe {
     margin-top: 20px;
 }
 
-footer {
+.footer {
     margin-top: 40px;
     padding: 20px 0 40px;
     color: #ccc;
+    border-top: 1px solid #666;
     background-color: #1a181b;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer .disclaimer {
+    margin-top: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,6 +35,15 @@ a {
 a:hover {
     color: #a80014;
     text-decoration: none;
+}
+
+img.img-circle {
+    width: 40%;
+    height: 40%;
+}
+
+img.fb-logo {
+    width: 21px;
 }
 
 .marketing p.lead {
